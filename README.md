@@ -35,9 +35,10 @@ To start working inside the virtual environment, run:
 '''pipenv shell'''
 
 To run project:
-**python main.py**
+***python main.py***
 
 Main.py acts as the debug.py
+
 Inside main.py, you can create sample instances of Customer, Coffee, and Order and call their methods to test how they work.
 
 Running the Tests:
@@ -46,7 +47,9 @@ You can run the test suite using pytest to verify the functionality of the metho
 '''pytest'''
 
 Structure
+
 The project is structured as follows:
+
 Customer. py:
 Defines the Customer class.
 Contains methods to create customers, retrieve orders, retrieve coffees, and create new orders.
