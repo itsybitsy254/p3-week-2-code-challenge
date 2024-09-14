@@ -1,5 +1,5 @@
 class Order:
-    all = []  # Class-level list to keep track of all orders
+    all = [] 
     
     def __init__(self, customer, coffee, price):
         self._customer = None
@@ -11,7 +11,7 @@ class Order:
         self.coffee = coffee
         self.price = price
         
-        # Append the order to the class-level order list
+
         Order.all.append(self)
         
         # Associate the order with the coffee and customer

@@ -3,7 +3,7 @@ from order import Order
 
 class Customer:
     def __init__(self, name):
-        self.name = name  # This will use the setter to validate and set the name
+        self.name = name 
         self._orders = []
 
     @property

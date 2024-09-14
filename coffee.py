@@ -1,12 +1,12 @@
 class Coffee:
     def __init__(self, name):
-        self.name = name  # Use the setter to validate and set the name
-        self._orders = []  # Initialize an empty list to track orders
-        self._customers = []  # Initialize an empty list to track customers
+        self.name = name 
+        self._orders = [] 
+        self._customers = [] 
 
     @property
     def name(self):
-        return getattr(self, '_name', None)  # Return the name if it exists
+        return getattr(self, '_name', None) 
 
     @name.setter
     def name(self, value):
