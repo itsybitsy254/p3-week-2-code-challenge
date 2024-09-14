@@ -35,7 +35,7 @@ To start working inside the virtual environment, run:
 '''pipenv shell'''
 
 To run project:
-'''python main.py'''
+**python main.py**
 Main.py acts as the debug.py
 Inside main.py, you can create sample instances of Customer, Coffee, and Order and call their methods to test how they work.
 
